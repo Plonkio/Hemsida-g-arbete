@@ -1,0 +1,30 @@
+
+body{
+
+background-image: url(timwood.png);
+
+}
+/**/
+
+@font-face{
+
+font-family: hubfont;
+src: url(Font/Error.ttf);
+
+
+}
+
+
+
+h1{
+
+font-family: hubfont;
+text-align: center;
+
+}
+
+.navbar{
+
+
+}
+

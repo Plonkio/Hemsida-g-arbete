@@ -1,8 +1,8 @@
 
 body{
 
-background-image: url(timwood.png);
-
+background-image: url(Plonkhub.png);
+size: 1920px,1080px;
 }
 /**/
 
@@ -23,8 +23,9 @@ text-align: center;
 
 }
 
-.navbar{
 
+.Home{
+
+text-align: center;
 
 }
-

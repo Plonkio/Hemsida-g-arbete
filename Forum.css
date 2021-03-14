@@ -8,26 +8,37 @@ size: 1920px,1080px;
 
 @font-face{
 
-font-family: hubfont;
-src: url(Font/Error.ttf);
+font-family: Main;
+src: url(Font/baby\ blocks.ttf);
 
 
 }
+@font-face{
 
+font-family: Search;
+src: url(Font/Pixeled.ttf);
 
+}
 
+@font-face{
+
+ font-family: Text;
+    src: url(Font/coolvetica\ rg.ttf);
+    
+    }
 h1{
 
-font-family: hubfont;
+font-family: Text;
 text-align: center;
-
+color:black;
+font-style: italic;
 }
 
 
 .btn {
 
-    font-size: 20px;
-    font-family: hubfont;
+    font-size: 15px;
+    font-family: Search;
 padding-top: 5px;
 color:#fc0335;
 border: none;
@@ -41,8 +52,9 @@ Navbar Brand "Plonkhub"
 */
 .navbar-brand{
     font-size: 40px;
-    font-family: hubfont;
+    font-family: Main;
 padding-left: 20px;
+
 
 }
 /*
@@ -50,21 +62,59 @@ Navbar Brand "Plonkhub"
 End
 */
 
+
+
+/*
+Search button start
+*/
 .navbar-nav{
 
     font-size: 30px;
-    font-family: hubfont;
-padding-left: 20px;
+    font-family: Main;
+padding-left: 25px;
 
-}.form-inline{
 
-    padding-left: 60.5%;
+
+}
+
+.nav-item-primary{
+
+    padding-left: 20px;
+    padding-top: 10px;
+
+    }
+
+    .nav-item-second{
+
+        padding-left: 20px;
+        padding-top: 10px;
+
+
+
+    }
+
+        .nav-item-third{
+
+            padding-left: 20px;
+            padding-top: 10px;
+
+
+            }
+
+
+
+
+
+.form-inline{
+
+    padding-left: 54%;
     
 }
 
 .form-control{
 
     background-color: #000011;
+    
 
 border: none;
 }
@@ -74,8 +124,8 @@ border: none;
     background-color:#000011;
     color:  rgb(197, 197, 197);
     border: none;
-    font-family: hubfont;
-    font-size: 20px;
+    font-family: Search;
+    font-size: 12px;
 }
 
 .btn:hover{
@@ -91,5 +141,13 @@ background: none ;
 
 }
 
+/*Search button end*/
 
+.nav-item:hover{
+
+background-color: #16171D;
+border-radius: 15px;
+
+
+}
 

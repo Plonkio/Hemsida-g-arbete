@@ -207,16 +207,16 @@ body{
     /*Privacy policy css*/
     
     .Policy { 
-    
-    margin: 0px;
-    font-family: Main;
-    font-size: 30px;
-    position: fixed;
-    padding-top: 14.5%;
-    list-style: none;
-    text-decoration: none;
-    bottom: 0;
-    }
+
+        margin: 0px;
+        font-family: Main;
+        font-size: 30px;
+        position: absolute;
+        padding-bottom: 14%;
+        list-style: none;
+        text-decoration: none;
+        bottom: 0px;
+        }
     
     .Privacy{
     

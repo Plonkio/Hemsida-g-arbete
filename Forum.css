@@ -211,8 +211,8 @@ border-radius: 15px;
 margin: 0px;
 font-family: Main;
 font-size: 30px;
-position: fixed;
-padding-top: 14.5%;
+position: absolute;
+padding-top: 14%;
 list-style: none;
 text-decoration: none;
 }

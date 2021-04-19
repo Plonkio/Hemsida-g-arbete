@@ -105,7 +105,12 @@ body{
     
                 }
     
-    
+                .bg-custom{
+
+                    background-color:#0D0D0D;
+                    
+                    }
+                    
     
     
     
@@ -155,4 +160,28 @@ body{
     
     }
     
-    
+    .Policy { 
+
+        margin: 0px;
+        font-family: Main;
+        font-size: 30px;
+        position: fixed;
+        padding-top: 14.5%;
+        list-style: none;
+        text-decoration: none;
+        bottom: 0px;
+        }
+        
+        .Privacy{
+        
+        text-decoration: none;
+        color: rgb(197, 197, 197);
+        list-style: none;
+        }
+        
+        .Privacy:hover{
+        
+        text-decoration: none;
+        color: white;
+        
+        }

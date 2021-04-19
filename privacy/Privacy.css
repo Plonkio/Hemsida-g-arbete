@@ -8,7 +8,12 @@ body{
     background-size: cover;
     
     }
-    /**/
+    /*Above is the code for correcting the placement of the background*/
+    
+    /*For mobile */
+    
+    
+    /*Fonts*/
     
     @font-face{
     
@@ -25,19 +30,37 @@ body{
     }
     
     @font-face{
-
-        font-family: Text;
-           src: url(coolvetica\ rg.ttf);
-           
-           }
     
-    h1{
+     font-family: Text;
+        src: url(coolvetica\ rg.ttf);
+        
+        }
+    p{
     
     font-family: Text;
-    text-align: center;
-    
+    text-align: left;
+    color:black;
+    font-style: italic;
     }
     
+    .caption{
+    
+        font-family: Text;
+        text-align:center;
+        color:black;
+        font-size: 50px;
+    
+        }
+    
+        .maintext1{
+    
+            font-family: Text;
+            text-align:left;
+            color:black;
+            font-size: 20px;
+        
+            }
+        
     
     .btn {
     
@@ -79,6 +102,7 @@ body{
     
     
     
+    
     }
     
     .nav-item-primary{
@@ -105,13 +129,12 @@ body{
     
                 }
     
+    /*custom navbar color*/
+    .bg-custom{
     
-                .bg-custom{
-
-                    background-color:#0D0D0D;
-                    
-                    }
-                    
+    background-color:#0D0D0D;
+    
+    }
     
     
     .form-inline{
@@ -137,6 +160,9 @@ body{
         font-size: 12px;
     }
     
+    
+    
+    
     .btn:hover{
     color: #ff6666;
     background: none ;
@@ -150,6 +176,17 @@ body{
     
     }
     
+    
+    .navbar{
+    
+    color: black;
+    
+    }
+    
+    
+    
+    
+    
     /*Search button end*/
     
     .nav-item:hover{
@@ -160,28 +197,40 @@ body{
     
     }
     
+    .Hubgif1{
+    
+        position: relative ;
+        top: 50px;
+    
+    }
+    
+    /*Privacy policy css*/
+    
     .Policy { 
+    
+    margin: 0px;
+    font-family: Main;
+    font-size: 30px;
+    position: fixed;
+    padding-top: 14.5%;
+    list-style: none;
+    text-decoration: none;
+    bottom: 0;
+    }
+    
+    .Privacy{
+    
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+    list-style: none;
+    }
+    
+    .Privacy:hover{
+    
+    text-decoration: none;
+    color: white;
+    
+    }
+    
 
-        margin: 0px;
-        font-family: Main;
-        font-size: 30px;
-        position: fixed;
-        padding-top: 14.5%;
-        list-style: none;
-        text-decoration: none;
-        bottom: 0px;
-        }
-        
-        .Privacy{
-        
-        text-decoration: none;
-        color: rgb(197, 197, 197);
-        list-style: none;
-        }
-        
-        .Privacy:hover{
-        
-        text-decoration: none;
-        color: white;
-        
-        }
+    

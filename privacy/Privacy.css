@@ -1,7 +1,7 @@
 
 body{
 
-    background-image: url(Plonkhub.png);
+    background-image: url(../material/Plonkhub.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -18,21 +18,21 @@ body{
     @font-face{
     
     font-family: Main;
-    src: url(baby\ blocks.ttf);
+    src: url(../Font/baby\ blocks.ttf);
     
     
     }
     @font-face{
     
     font-family: Search;
-    src: url(Pixeled.ttf);
+    src: url(../Font/Pixeled.ttf);
     
     }
     
     @font-face{
     
      font-family: Text;
-        src: url(coolvetica\ rg.ttf);
+        src: url(../Font/coolvetica\ rg.ttf);
         
         }
     p{

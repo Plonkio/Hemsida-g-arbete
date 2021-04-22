@@ -1,7 +1,7 @@
 
 body{
 
-background-image: url(Plonkhub.png);
+background-image: url(../material/Plonkhub.png);
 background-position: center center;
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -18,21 +18,21 @@ background-size: cover;
 @font-face{
 
 font-family: Main;
-src: url(Font/baby\ blocks.ttf);
+src: url(../Font/baby\ blocks.ttf);
 
 
 }
 @font-face{
 
 font-family: Search;
-src: url(Font/Pixeled.ttf);
+src: url(../Font/Pixeled.ttf);
 
 }
 
 @font-face{
 
  font-family: Text;
-    src: url(Font/coolvetica\ rg.ttf);
+    src: url(../Font/coolvetica\ rg.ttf);
     
     }
 p{
@@ -200,7 +200,7 @@ border-radius: 15px;
 .Hubgif1{
 
     position: relative ;
-    top: 50px;
+    top: 40px;
 
 }
 
@@ -211,8 +211,7 @@ border-radius: 15px;
 margin: 0px;
 font-family: Main;
 font-size: 30px;
-position: absolute;
-padding-top: 14%;
+position: fixed;
 list-style: none;
 text-decoration: none;
 bottom: 0px;

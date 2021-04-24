@@ -1,7 +1,7 @@
 
 body{
 
-background-image: url(material/Plonkhub.png);
+background-image: url(material/bg1.png);
 background-position: center center;
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -25,54 +25,105 @@ src: url(Font/baby\ blocks.ttf);
 @font-face{
 
 font-family: Search;
-src: url(Font/Pixeled.ttf);
+src: url(Font/coolvetica\ rg.ttf);
 
 }
 
 @font-face{
 
  font-family: Text;
-    src: url(Font/coolvetica\ rg.ttf);
+    src: url(Font/Merriweather-Regular.ttf);
     
     }
 p{
 
 font-family: Text;
 text-align: left;
-color:black;
+color:white;
 font-style: italic;
 }
-
-.caption{
+/*Text related code*/
+.Firstarticle{
 
     font-family: Text;
-    text-align:center;
-    color:black;
-    font-size: 50px;
+    text-align:left;
+    color:white;
+    font-size: 30px;
+font-style: italic;
 
     }
 
-    .maintext1{
+    .Firstarticletext{
 
         font-family: Text;
         text-align:left;
-        color:black;
-        font-size: 20px;
-    
+        color:white;
+        font-size: 18px;
+    line-height: 30px;
+    display: block;
         }
     
+.Firstarticletextcaption{
 
+    font-family: Text;
+    text-align:left;
+    color:white;
+    font-size: 25px;
+font-style: italic;
+line-height: 5px;
+}
+
+
+/*Submit button main code*/
 .btn {
 
-    font-size: 15px;
+    font-size: 25px;
     font-family: Search;
 padding-top: 5px;
-color:#fc0335;
+color: rgb(197, 197, 197);
 border: none;
 float:right;
 
 }
 
+.form-inline{
+
+    padding-left: 57%;
+    
+}
+
+.form-control{
+
+    background-color: #000011;
+    
+
+border: none;
+}
+
+.form-control:enabled{
+
+    background-color:#000011;
+    color:  rgb(197, 197, 197);
+    border: none;
+    font-family: Search;
+    font-size: 20px;
+}
+
+
+
+
+.btn:hover{
+color: rgba(245, 245, 245, 0.897);
+background: none ;
+
+}
+
+.btn:active{
+
+color: white;
+background: none ;
+
+}
 /*
 Navbar Brand "Plonkhub"
 
@@ -91,12 +142,10 @@ End
 
 
 
-/*
-Search button start
-*/
+/*Navbar code*/
 .navbar-nav{
 
-    font-size: 30px;
+    font-size: 35px;
     font-family: Main;
 padding-left: 25px;
 
@@ -137,44 +186,7 @@ background-color:#0D0D0D;
 }
 
 
-.form-inline{
 
-    padding-left: 54%;
-    
-}
-
-.form-control{
-
-    background-color: #000011;
-    
-
-border: none;
-}
-
-.form-control:enabled{
-
-    background-color:#000011;
-    color:  rgb(197, 197, 197);
-    border: none;
-    font-family: Search;
-    font-size: 12px;
-}
-
-
-
-
-.btn:hover{
-color: #ff6666;
-background: none ;
-
-}
-
-.btn:active{
-
-color: #ff666634;
-background: none ;
-
-}
 
 
 .navbar{
@@ -188,6 +200,9 @@ color: black;
 
 
 /*Search button end*/
+
+
+
 
 .nav-item:hover{
 

@@ -73,7 +73,44 @@ font-style: italic;
 line-height: 5px;
 }
 
+.Hometext{
 
+font-family: Text;
+text-align: center;
+color: white;
+font-size: 25px;
+
+
+}
+
+.Abouttext{
+
+    font-family: Text;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    
+    
+    }
+    
+    .Reviewtext{
+
+        font-family: Text;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        
+        
+        }
+        .Privacytext{
+
+            font-family: Text;
+            text-align: center;
+            color: white;
+            font-size: 35px;
+            font-style: bold;
+            
+            } 
 /*Submit button main code*/
 .btn {
 
@@ -215,7 +252,15 @@ border-radius: 15px;
 .Hubgif1{
 
     position: relative ;
+    width: 10px;
     top: 40px;
+opacity: 40%;
+}
+
+.Hubgif1:hover {
+
+opacity: 100%;
+-webkit-transition: 0.7s ease-in-out;
 
 }
 
@@ -245,4 +290,80 @@ text-decoration: none;
 color: white;
 
 }
+
+/*Slideshow css code*/
+* {box-sizing: border-box}
+.slideshowtestcontainer{
+top: 200px;
+max-width: 500px;
+position: absolute;
+
+left: 70%;
+
+}
+
+
+
+.slides{
+
+    display: none;
+    
+}
+/*Next and previous arrow buttons*/
+.prev, .next{
+
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+margin-top: -22px;
+padding: 16px; 
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.7s ease;
+user-select: none;
+text-decoration: none;
+
+}
+
+.next{
+right: 0;
+border-radius: 3px 0 0 3px;
+
+}
+
+.prev:hover, .next:hover{
+
+color: rgb(197, 197, 197);;
+
+
+}
+/*Text over the image*/
+.foottext{
+
+font-family: Search;
+color: white;
+font-size: 17px;
+padding: 85% 13px;
+position:absolute;
+bottom: 8px;
+right: 18px;
+width: 100%;
+text-align: center;
+
+}
+
+.textnumber{
+font-family: Search;
+color: black;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+
+
+}
+
+
 

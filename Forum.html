@@ -12,6 +12,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="Forum.css">
  
+
+
+
+</div>
+
+
 </head>
 <!--End of head-->
 
@@ -30,10 +36,10 @@
         <a class="nav-link enabled" href="Home/Home.html">Home</a>
       </li>
       <li class="nav-item-second">
-        <a class="nav-link enabled" href="Reviews/Reviews.html">Filter</a>
+        <a class="nav-link enabled" href="Reviews/Reviews.html">Reviews</a>
       </li>
       <li class="nav-item-third">
-        <a class="nav-link enabled" href="What">What</a>
+        <a class="nav-link enabled" href="About/About.html">About</a>
       </li>
     </ul>
     <!---End of buttons-->
@@ -58,7 +64,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
-<!--Start of slideshow code-->
+
 
 
 <!--Text-->
@@ -98,6 +104,76 @@ I will be trying to share my thoughts and opinions on many different things, mos
 
 </nav>
 
+
+
+<!--Experimental JAVASCRIPT slideshow-->
+<div class="slideshowtestcontainer">
+
+<div class="slides">
+<div class="textnumber">1 / 3</div>
+<img src="Material/vibe.png" style="width: 100%;">
+<div class="foottext">He do be vibin</div>
+</div>
+
+<div class="slides">
+  <div class="textnumber">2 / 3</div>
+ <img src="Material/mad.png" style="width: 100%;">
+  <div class="foottext">He do be mad tho</div>
+</div>
+
+  <div class="slides">
+    <div class="textnumber">3 / 3</div>
+    <img  src="Material/neutral.png" style="width: 100%;">
+    <div class="foottext">He do be......just neutral</div>
+  </div>
+
+<!--Buttons for next and previous-->
+<a class="prev" onclick="plusSlides(-1)">	&#8604;</a>
+<a class="next" onclick="plusSlides(1)">	&#8605;</a>
+
+</div>
+
+
+
+<script>
+
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+
+function plusSlides(n) {
+
+showSlides(slideIndex += n);
+  
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n)
+}
+
+function showSlides(n) {
+
+var i;
+var slides = document.getElementsByClassName("slides")
+
+if (n > slides.length) {slideIndex = 1}
+if (n < 1) {slideIndex = slides.length}
+for (i = 0; i < slides.length; i++) {
+slides[i].style.display = "none";
+}
+
+slides[slideIndex-1].style.display = "block";
+
+
+
+
+}
+
+
+
+
+</script>
 
 </body>
 </html>

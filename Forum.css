@@ -260,7 +260,7 @@ opacity: 40%;
 .Hubgif1:hover {
 
 opacity: 100%;
--webkit-transition: 0.7s ease-in-out;
+transition: 0.7s ease-in-out;
 
 }
 
@@ -351,17 +351,6 @@ bottom: 8px;
 right: 18px;
 width: 100%;
 text-align: center;
-
-}
-
-.textnumber{
-font-family: Search;
-color: black;
-font-size: 15px;
-padding: 8px 12px;
-position: absolute;
-top: 0;
-
 
 }
 

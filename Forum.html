@@ -20,12 +20,16 @@
 
 <body>
 
-<!--Navigation bar-->
+<!-- Bootstrap5 Navigation bar-->
+
+<!--Main code for the actual navbar and the code to control responsiveness etc-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarhub" aria-controls="navbarhub" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <!--Buttons-->
+  
+
+<!--HTML code for the buttons and the main "logo" button-->
   <div class="collapse navbar-collapse" id="navbarhub">
     <a class="navbar-brand" href="Forum.html">Plonkhub</a>
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -39,16 +43,14 @@
         <a class="nav-link enabled" href="About/About.html">About</a>
       </li>
     </ul>
-    <!---End of buttons-->
     <!--Start of searchbar>-->
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn shadow-none my-2 my-sm-0" type="submit">Submit</button>
     </form>
-    <!--End of searchbar-->
+   
   </div>
 </nav>
-<!--End of navigation bar-->   
 
 
 
@@ -136,31 +138,39 @@ I will be trying to share my thoughts and opinions on many different things, mos
 var slideIndex = 1;
 showSlides(slideIndex);
 
+/*n in the code is a parameter*/
+
+
+/*Plusslides is the code for the arrow buttons */
 
 function plusSlides(n) {
+
 
 showSlides(slideIndex += n);
   
 }
 
-function currentSlide(n) {
-  showSlides(slideIndex = n)
-}
 
 function showSlides(n) {
 
+  /*Getelementbyclassname calls for the class know as slide in this case*/
 var i;
 var slides = document.getElementsByClassName("slides")
 
+/*This code controls where the slideshow starts, ends and starts over*/
 if (n > slides.length) {slideIndex = 1}
-if (n < 1) {slideIndex = slides.length}
+if (n < 1) {slideIndex = slides.length}  /*By changing the numbers I can change were the slideshow starts and ends*/
 for (i = 0; i < slides.length; i++) {
-slides[i].style.display = "none";
+  slides[i].style.display = "none"; /*This slide makes it so that the arrow buttons doesnt create new instances but instead just changes the picture, 
+  without this code it just becomes an endless mess of copies*/
 }
 
-slides[slideIndex-1].style.display = "block";
+
+slides[slideIndex-1].style.display = "block"; 
 
 }
+
+
 
 </script>
 

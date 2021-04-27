@@ -113,56 +113,13 @@ font-size: 25px;
             font-style: bold;
             
             } 
-/*Submit button and search bar styling*/
-.btn {
-
-    font-size: 25px;
-    font-family: Search;
-padding-top: 5px;
-color: rgb(197, 197, 197);
-border: none;
-float:right;
-
-}
 
 
-.form-control{
-
-    background-color: #000011;
-    
-
-border: none;
-}
-
-.form-control:enabled{
-
-    background-color:#000011;
-    color:  rgb(197, 197, 197);
-    border: none;
-    font-family: Search;
-    font-size: 20px;
-}
-
-
-
-
-.btn:hover{
-color: rgba(245, 245, 245, 0.897);
-background: none ;
-
-}
-
-.btn:active{
-
-color: white;
-background: none ;
-
-}
 /*
 Navbar Brand "Plonkhub"
 */
 .navbar-brand{
-    font-size: 40px;
+    font-size: 3em;
     font-family: Main;
 
 
@@ -175,7 +132,7 @@ Navbar Brand "Plonkhub"
 /*Navbar code*/
 .navbar-nav{
 
-    font-size: 35px;
+    font-size: 2em;
     font-family: Main;
 
 }
@@ -308,4 +265,10 @@ width: 100%;
 text-align: center;
 
 }
+/*Clock styling code*/
+.Clock{
 
+font-family: Main;
+font-size: 2em;
+
+}

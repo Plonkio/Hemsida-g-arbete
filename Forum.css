@@ -1,15 +1,18 @@
 
 body{
 
-background-image: url(material/bg1.png);
-background-position: center center;
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: cover;
+background-color:rgb(65, 63, 63);
 
 }
 /*Above is the code for correcting the placement of the background*/
 
+
+
+.container{
+
+float: left;
+
+}
 
 
 /*Fonts*/
@@ -122,11 +125,6 @@ float:right;
 
 }
 
-.form-inline{
-
-    padding-left: 57%;
-    
-}
 
 .form-control{
 
@@ -162,12 +160,11 @@ background: none ;
 }
 /*
 Navbar Brand "Plonkhub"
-
 */
 .navbar-brand{
     font-size: 40px;
     font-family: Main;
-padding-left: 20px;
+
 
 
 }
@@ -180,59 +177,15 @@ padding-left: 20px;
 
     font-size: 35px;
     font-family: Main;
-padding-left: 25px;
-
-
-
 
 }
 
-.nav-item-primary{
+.me-1{
 
-    padding-left: 20px;
-    padding-top: 10px;
-
-    }
-
-    .nav-item-second{
-
-        padding-left: 20px;
-        padding-top: 10px;
-
-
-
-    }
-
-        .nav-item-third{
-
-            padding-left: 20px;
-            padding-top: 10px;
-
-
-            }
-
-/*custom navbar color*/
-.bg-custom{
-
-background-color:#0D0D0D;
+padding-left: 0.5em;
 
 }
 
-
-.navbar{
-
-color: black;
-
-}
-
-
-.nav-item:hover{
-
-background-color: #16171D;
-border-radius: 15px;
-
-
-}
 
 /*Jumping stickman gif styling*/
 .Hubgif1{
@@ -257,10 +210,10 @@ transition: 0.7s ease-in-out;
 
 margin: 0px;
 font-family: Main;
-font-size: 30px;
-position: fixed;
+font-size: 1.7em;
+position: sticky;
 list-style: none;
-text-decoration: none;
+overflow: hidden;
 bottom: 0px;
 }
 
@@ -270,6 +223,7 @@ bottom: 0px;
 text-decoration: none;
 color: rgb(197, 197, 197);
 list-style: none;
+float: left;
 }
 
 .Privacy:hover{
@@ -277,6 +231,15 @@ list-style: none;
 text-decoration: none;
 color: white;
 
+}
+
+/*Easter egg button styling*/
+
+.easteregg{
+    color: rgb(197, 197, 197);
+    float: right;
+border: none;
+background: none;
 }
 
 /*Slideshow css code*/
@@ -345,6 +308,4 @@ width: 100%;
 text-align: center;
 
 }
-
-
 

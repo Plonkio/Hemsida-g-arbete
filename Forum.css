@@ -148,9 +148,9 @@ padding-left: 0.5em;
 .Hubgif1{
 
     position: relative ;
-    width: 10px;
-    top: 40px;
-opacity: 40%;
+    width: 0.5em;
+    top: 0.5em;
+opacity: 0.5em;
 }
 
 
@@ -162,28 +162,37 @@ transition: 0.7s ease-in-out;
 }
 
 
-/*Privacy policy styling*/
-.Policy { 
 
-margin: 0px;
-font-family: Main;
-font-size: 1.7em;
-position: sticky;
-list-style: none;
+
+/*Privacy policy styling*/
+
+.bottombar{
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 overflow: hidden;
-bottom: 0px;
+list-style: none;
+text-decoration: none;
 }
 
 
-.Privacy{
+
+
+.privacy{
 
 text-decoration: none;
 color: rgb(197, 197, 197);
 list-style: none;
-float: left;
+font-family: Main;
+font-size: 2em;
+
+overflow: hidden;
+
+
 }
 
-.Privacy:hover{
+.privacy:hover, .easteregg:hover{
 
 text-decoration: none;
 color: white;
@@ -193,11 +202,22 @@ color: white;
 /*Easter egg button styling*/
 
 .easteregg{
+    text-decoration: none;
     color: rgb(197, 197, 197);
-    float: right;
-border: none;
-background: none;
+    list-style: none;
+    font-family: Main;
+    font-size: 2em;
+    
+    overflow: hidden;
+  
+    background: none;
+    border: none;
+   
+    
 }
+
+
+
 
 /*Slideshow css code*/
 * {box-sizing: border-box}

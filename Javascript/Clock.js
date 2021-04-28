@@ -1,3 +1,6 @@
+
+
+/*The necessary code for getting hours,minutes and seconds and making them read out correctly*/
 function startClock() {
     var today = new Date();
     var h = today.getHours();
@@ -10,6 +13,6 @@ function startClock() {
     var t = setTimeout(startClock, 1000);
   }
   function checkTime(i) {
-    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    if (i < 10) {i = "0" + i};  /*adds 0 to the time if the numbers are below 10*/
     return i;
   }

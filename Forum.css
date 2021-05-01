@@ -1,7 +1,8 @@
 
 body{
 
-background-color:rgb(65, 63, 63);
+
+background-color:#121212;
 
 }
 /*Above is the code for correcting the placement of the background*/
@@ -37,43 +38,93 @@ src: url(Font/coolvetica\ rg.ttf);
     src: url(Font/Merriweather-Regular.ttf);
     
     }
-p{
 
-font-family: Text;
-text-align: left;
-color:white;
-font-style: italic;
-}
 /*Text related code*/
-.Firstarticle{
 
-    font-family: Text;
-    text-align:left;
-    color:white;
-    font-size: 30px;
-font-style: italic;
 
-    }
 
-    .Firstarticletext{
+/*Main page intro text*/
 
-        font-family: Text;
-        text-align:left;
-        color:white;
-        font-size: 18px;
-    line-height: 30px;
-    display: block;
-        }
-    
-.Firstarticletextcaption{
 
-    font-family: Text;
-    text-align:left;
-    color:white;
-    font-size: 25px;
-font-style: italic;
-line-height: 5px;
+
+#bottom > p {
+
+margin-top: 39rem;
+opacity: 10%;
+
 }
+
+#bottom > p:hover {
+
+
+opacity: 100%;
+
+}
+
+
+#Maintext > p {
+
+margin-bottom: 1.5rem;
+
+}
+
+
+.Mainintro{
+    padding: 5px;
+    margin: 0 0 0 2em;
+    display: block;
+    
+}
+
+
+.Mainintrotext {
+
+   
+    display: grid;
+    grid-template-columns: 1fr 10em;
+    line-height: 1.4;
+}
+
+
+#Maintext {
+font-family: Text;
+font-size: 1.5rem;
+color: white;
+margin: 0.2em 3em 0 0;
+white-space: nowrap;
+
+}
+
+
+
+
+
+
+
+.Mainbody{
+
+margin: 0 auto;
+margin-top: 0%;
+}
+
+
+
+.Intro{
+font-weight: bold;
+
+
+}
+
+.Introduction {
+
+text-align: left;
+font-size: 3em;
+line-height: 1.5;
+font-family: Text;
+color: white;
+margin: 0 0 2em 4em;
+}
+
 
 .Hometext{
 
@@ -145,21 +196,7 @@ padding-left: 0.5em;
 
 
 /*Jumping stickman gif styling*/
-.Hubgif1{
 
-    position: relative ;
-    width: 0.5em;
-    top: 0.5em;
-opacity: 0.5em;
-}
-
-
-.Hubgif1:hover {
-
-opacity: 100%;
-transition: 0.7s ease-in-out;
-
-}
 
 
 
@@ -174,6 +211,7 @@ transition: 0.7s ease-in-out;
 overflow: hidden;
 list-style: none;
 text-decoration: none;
+display: block;
 }
 
 
@@ -207,7 +245,7 @@ color: white;
     list-style: none;
     font-family: Main;
     font-size: 2em;
-    
+    float: right;
     overflow: hidden;
   
     background: none;
@@ -220,13 +258,17 @@ color: white;
 
 
 /*Slideshow css code*/
-* {box-sizing: border-box}
-.slideshowtestcontainer{
-top: 200px;
-max-width: 500px;
-position: absolute;
 
-left: 70%;
+
+
+
+
+.slideshowtestcontainer{
+display: block;
+margin: 0 2em 0 2em;
+max-width: 27%;
+position: relative;
+float: right;
 
 }
 
@@ -287,8 +329,29 @@ text-align: center;
 }
 /*Clock styling code*/
 .Clock{
-
+color: white;
 font-family: Main;
 font-size: 2em;
 
 }
+
+
+@media (max-width: 946px) {
+    .Intro{
+padding-left: 2em;
+white-space: nowrap;
+
+
+    }
+}
+
+@media (max-width: 946px) {
+
+    .Introduction {
+      font-size: 2em;  
+    
+    }
+    
+}
+
+

@@ -1,4 +1,5 @@
 
+
 body{
 
 
@@ -47,19 +48,6 @@ src: url(Font/coolvetica\ rg.ttf);
 
 
 
-#bottom > p {
-
-margin-top: 39rem;
-opacity: 10%;
-
-}
-
-#bottom > p:hover {
-
-
-opacity: 100%;
-
-}
 
 
 #Maintext > p {
@@ -126,6 +114,23 @@ margin: 0 0 2em 4em;
 }
 
 
+#bottom > p {
+
+    margin-top: 39rem;
+    opacity: 10%;
+    
+    }
+    
+    #bottom > p:hover {
+    
+    
+    opacity: 100%;
+    
+    }
+    
+
+
+
 .Hometext{
 
 font-family: Text;
@@ -136,15 +141,6 @@ font-size: 25px;
 
 }
 
-.Abouttext{
-
-    font-family: Text;
-    text-align: center;
-    color: white;
-    font-size: 25px;
-    
-    
-    }
     
     .Reviewtext{
 
@@ -336,22 +332,121 @@ font-size: 2em;
 }
 
 
-@media (max-width: 946px) {
-    .Intro{
-padding-left: 2em;
+
+
+/*Text code for the about page*/
+
+.Aboutmebody{
+
+display: block;
+
+font-family: Text;
+color: white;
 white-space: nowrap;
-
-
-    }
-}
-
-@media (max-width: 946px) {
-
-    .Introduction {
-      font-size: 2em;  
-    
-    }
-    
+line-height: 1.4;
 }
 
 
+
+.Aboutme h1{
+font-size: 2.5em;
+margin: 10px 0 10px 0;
+display: block;
+text-align: center;
+}
+
+
+
+
+
+
+
+
+.Aboutquestions {
+display: block;
+    text-align: center;
+  
+}
+
+
+.Aboutquestions h2{
+
+margin-top: 1.4em;
+font-size: 2em;
+margin-bottom: 1em;
+font-style: italic;
+}
+
+
+.Aboutquestions p{
+   
+  margin-top: 1.4em;
+font-size: 1.4em;
+
+}
+
+
+.Proglog {
+text-decoration: none;
+list-style: none;
+ color: rgb(209, 0, 0);
+
+}
+
+.Proglog:hover{
+
+color:  red;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 300px) and (max-width: 925px) {
+
+    .Mainbody, .Maintext {
+      font-size: 1.5vw;  
+    white-space: nowrap;
+    }
+    
+}
+
+
+@media  screen and (min-width: 300px) and (max-width: 925px) {
+
+    .Aboutmebody {
+
+        font-size: 1.5vw;
+    }
+
+}

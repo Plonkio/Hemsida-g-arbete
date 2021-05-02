@@ -116,7 +116,7 @@ margin: 0 0 2em 4em;
 
 #bottom > p {
 
-    margin-top: 39rem;
+    margin: 39rem 0 1rem 0;
     opacity: 10%;
     
     }
@@ -128,8 +128,17 @@ margin: 0 0 2em 4em;
     
     }
     
+.Mainlink{
 
+text-decoration: none;
+color: red;
 
+}
+.Mainlink:hover{
+
+color: rgb(209, 0, 0);
+
+}
 
 .Hometext{
 
@@ -389,13 +398,13 @@ font-size: 1.4em;
 .Proglog {
 text-decoration: none;
 list-style: none;
- color: rgb(209, 0, 0);
+ color: red;
 
 }
 
 .Proglog:hover{
 
-color:  red;
+color:  rgb(209, 0, 0);
 
 }
 
